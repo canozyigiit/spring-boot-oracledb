@@ -4,7 +4,7 @@
 
 2 - ) docker run -d p 1521:1521 --name oracle container-registry.oracle.com/database/enterprise:19.3.0.0
 
-3 - ) docker exec -u root --workdir / -ti oracledb /bin/sh
+3 - ) docker exec -u root --workdir / -ti oracle /bin/sh
 
 4 - ) yum install vim
 
